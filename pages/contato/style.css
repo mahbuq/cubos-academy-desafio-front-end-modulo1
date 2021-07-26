@@ -1,0 +1,73 @@
+/*Seção: Entre em Contato*/
+.entre-em-contato,
+.contact-area {
+  width: 1110px;
+  margin: 0 auto 48px auto;
+  border-top: 1px solid #eaeaeb;
+}
+
+.text-contact,
+.contact-area {
+  margin-top: 48px;
+  display: flex;
+  gap: 125px;
+}
+
+.text-contact p {
+  width: 635px;
+}
+
+.soc-media-icons-ct {
+  margin-top: 56px;
+}
+
+/*Seção: Contato*/
+
+.contact-area {
+  padding-bottom: 109px;
+}
+
+.contact-area h2 {
+  width: 350px;
+  margin-top: 47px;
+}
+
+.contact-area form {
+  margin-top: 47px;
+  margin-left: -45px;
+}
+
+/*Formulário*/
+
+input[type="text"] {
+  all: unset;
+  width: 635px;
+  height: 48px;
+  background-color: rgb(235, 235, 236);
+  display: block;
+  margin-bottom: 24px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+input[type="text"]:focus {
+  border: 2px solid #33323d;
+}
+
+label {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.send {
+  all: unset;
+  background-color: #203a4c;
+  color: white;
+  padding: 17px 70px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+}
+
+#msg {
+  height: 96px;
+}

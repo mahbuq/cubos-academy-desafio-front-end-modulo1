@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #33323d;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+/*Elementos de texto*/
+
+h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+h2 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  margin-bottom: 28px;
+}
+
+h3 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+p {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+}
+
+/*Imagens*/
+
+img {
+  cursor: pointer;
+}
+
+/*Templates*/
+
+/*Button*/
+.template-btn {
+  all: unset;
+  border: 1px solid #33323d;
+  padding: 17px 50px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  transition: 0.5s;
+}
+.template-btn:hover {
+  background-color: #33323d;
+  color: #fafafa;
+}
+
+/*Container Image-Text*/
+
+.img-text-template {
+  width: 1110px;
+  margin: 0 auto 150px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-text-template img {
+  width: 540px;
+  height: 600px;
+}
+
+.text {
+  border-top: 1px solid rgb(234, 234, 235);
+  border-bottom: 1px solid rgb(234, 234, 235);
+}
+
+.text h2 {
+  margin-top: 51px;
+}
+
+.text p {
+  margin-bottom: 24px;
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 1111px;
+  margin: 64px auto 94px auto;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-left: 42px;
+}
+
+nav li a:focus {
+  color: rgb(95, 180, 162);
+}
+
+/*Páginas Projetos*/
+
+.intro-img {
+  width: 1110px;
+  height: 500px;
+  display: block;
+  margin: 0 auto 115px auto;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+}
+
+.abstract {
+  width: 350px;
+  padding: 48px 0;
+  border-top: 1px solid rgb(234, 234, 235);
+  border-bottom: 1px solid rgb(234, 234, 235);
+  height: 420px;
+}
+
+.abstract p {
+  margin-bottom: 53px;
+}
+
+.mint-color {
+  display: block;
+  color: rgba(95, 180, 162, 1);
+  margin-bottom: 16px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+}
+
+.abstract .template-btn {
+  margin-top: 32px;
+}
+
+.about-project {
+  width: 635px;
+}
+
+.about-project p {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.preview-img {
+  width: 635px;
+  height: 400px;
+  margin-bottom: 32px;
+}
+
+.next-prev {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  margin: 64px auto 115px auto;
+  padding: 32px;
+  border-top: 1px solid rgb(234, 234, 235);
+  border-bottom: 1px solid rgb(234, 234, 235);
+}
+
+.prev {
+  display: flex;
+  gap: 32px;
+}
+
+.next {
+  display: flex;
+  gap: 32px;
+}
+
+.arrow {
+  margin-top: 20px;
+}
+
+.go-to-h2 {
+  margin: 0;
+}
+
+.go-to-p {
+  color: rgb(174, 174, 179);
+}
+
+/*Seção Contato*/
+
+.contact-section {
+  width: 1110px;
+  margin: 0 auto 150px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-section a {
+  align-self: center;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #33323d;
+  padding: 24px 0;
+  display: flex;
+}
+
+.logo {
+  margin-left: 110px;
+  cursor: pointer;
+}
+
+footer nav {
+  margin-left: 30px;
+  align-self: center;
+}
+
+footer li {
+  margin-right: 20px;
+}
+
+footer a {
+  color: white;
+}
+
+.soc-media-icons {
+  align-self: center;
+  justify-self: flex-end;
+  margin-left: 580px;
+}
+
+.soc-media-icons img {
+  margin-right: 15px;
+}
