@@ -33,14 +33,13 @@
 <ul>O primeiro passo é realizar a instalação dos programas utilizados na execução do projeto.
     <ul><li> 1º passo: caso não tenha, instale o <a href="https://git-scm.com/">Git</a> em seu computador. </li></ul>    
     <ul><li> 2º passo: instale um bom editor de código. Por exemplo, o <a href="https://code.visualstudio.com/">VSCODE</a>.</li></ul>
-    <ul><li> 3º passo: adicione a extensão live server no seu VSCODE. </li></ul>
 </ul>
   
 </br>
 
 ### :warning: Para executar o projeto...
             # Clone o repositório para a sua máquina local.
-             $ git clone git@github.com:Pam18/m01-front-desafio-cubos-academy.git
+             $ git clone https://github.com/mahbuq/cubos-academy-desafio-front-end-modulo1.git
              
             # No painel esquerdo do seu VSCODE, entre no repositório clonado e acesse a pasta "pages".
             
