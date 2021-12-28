@@ -1,8 +1,8 @@
-# Desafio da Cubos Academy: módulo 01 (Front-end)
+# Desafio da Cubos Academy: Módulo 01 (Front-end)
 
 <h3> :dart: Sobre o projeto: </h3>
 
-<p> A proposta do desafio de finalização do módulo 1, do curso de desenvolvimento de software da Cubos academy, foi replicar o website encontrado no arquivo 'Desafio front academy 1.fig'. Para a execução do projeto, foram utilizados os conhecimentos de HTML, CSS e layout.</p>
+<p> A proposta do desafio de finalização do módulo 1 do curso de desenvolvimento de software da Cubos Academy, foi replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.</p>
 
 <br/>
 
@@ -41,11 +41,11 @@
             # Clone o repositório para a sua máquina local.
              $ git clone https://github.com/mahbuq/cubos-academy-desafio-front-end-modulo1.git
              
-            # No painel esquerdo do seu VSCODE, entre no repositório clonado e acesse a pasta "pages".
+            # Entre no repositório clonado e acesse a pasta "pages".
             
             # Na pasta "pages", abra a subpasta "home".
             
-            # Dentro da subpasta "home", clique com o botão direito no arquivo "index.html" e selecione "Open with Live Server".
+            # Dentro da subpasta "home", clique duas vezes com o botão direito no arquivo "index.html".
             
             # A aplicação será aberta no seu navegador.
   
